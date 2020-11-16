@@ -103,3 +103,9 @@ p.lead {
   background-color: rgba(59, 61, 59, 0.45);
   display: inline-block;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
